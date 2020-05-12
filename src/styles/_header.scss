@@ -1,0 +1,65 @@
+.header {
+  padding-top: 118px;
+
+  &__logo {
+    margin-bottom: 35px;
+  }
+
+  &__text {
+    width: 300px;
+    font-family: $bwsurcodemo-medium, sans-serif;
+    font-weight: 500;
+    color: #433534;
+  }
+
+  &__title {
+    font-family: $bwsurcodemo-bold, sans-serif;
+    font-size: 99px;
+    font-weight: 700;
+    color: $header_title-color;
+    margin-top: 180px;
+  }
+
+  &__description {
+    margin-top: 73px;
+    width: 300px;
+    color: $main_text-color;
+  }
+
+  @media screen and (max-width: 1220px) {
+    &__title {
+      font-size: 60px;
+      margin-top: 180px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+
+    &__title {
+      margin-top: 100px;
+    }
+
+    &__text {
+      width: 100%;
+    }
+
+    &__description {
+      width: 100%;
+      margin-top: 50px;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    padding-top: 30px;
+
+    &__title {
+      font-size: 50px;
+      margin-top: 100px;
+    }
+
+    &__description {
+      margin-top: 30px;
+    }
+  }
+}

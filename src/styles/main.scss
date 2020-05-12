@@ -1,7 +1,71 @@
 @import "utils";
 @import "fonts";
-@import "typography";
+@import "header";
+@import "motivation";
+@import "advantages";
+@import "science";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
-  background: $c-gray;
+  font-family: "ARSON PRO LIGHT", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  background: url("../images/header_bg.png") no-repeat 50% 0;
+  background-size: contain;
+
+  @media screen and (max-width: 1220px) {
+    font-size: 15px;
+  }
+}
+
+.content {
+  width: 1276px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+  @media screen and (max-width: 1366px) {
+    width: 85%;
+  }
+  @media screen and (max-width: 450px) {
+    width: 100%;
+  }
+}
+
+.wrapper {
+  width: 1540px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+  @media screen and (max-width: 1540px) {
+    width: 95%;
+  }
+  @media screen and (max-width: 450px) {
+    width: 100%;
+  }
+}
+
+.logo {
+  display: block;
+}
+
+.common-title {
+  font-family: $bwsurcodemo-bold, sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: $common_title-color;
+
+  @media screen and (max-width: 1220px) {
+    font-size: 33px;
+  }
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 24px;
+  }
 }

@@ -1,0 +1,55 @@
+.motivation {
+  position: relative;
+  margin-top: 490px;
+  background-color: #f5edd5;
+  box-shadow: 6.4px 10.2px 240px 10px rgba(95, 86, 60, 0.23);
+  padding: 136px 144px 122px;
+  text-align: center;
+
+  :before {
+    content: "";
+    position: absolute;
+    top: -84px;
+    left: 449px;
+    width: 210px;
+    height: 170px;
+    background: url("../images/petal.png") no-repeat center;
+  }
+
+  &__text {
+    color: $main_text-color;
+    line-height: 36px;
+  }
+
+  @media screen and (max-width: 1220px) {
+    margin: 150px auto 0;
+    box-shadow: 6.4px 10.2px 240px 10px rgba(95, 86, 60, 0.2);
+    padding: 110px 10px 80px;
+    width: 85%;
+
+    :before {
+      left: 300px;
+      background-size: contain;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 60px 10px;
+    margin: 110px auto 0;
+
+    :before {
+      top: -20%;
+      left: 0;
+      width: 150px;
+      height: 110px;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    width: 100%;
+
+    :before {
+      top: -15%;
+    }
+  }
+}
