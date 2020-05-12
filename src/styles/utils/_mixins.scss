@@ -9,3 +9,8 @@
   display: flex;
   justify-content: space-around;
 }
+
+@mixin space-between {
+  display: flex;
+  justify-content: space-between;
+}

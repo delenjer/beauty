@@ -1,0 +1,156 @@
+.mentor {
+  position: relative;
+  margin: 96px 0 156px;
+  padding-top: 242px;
+
+  &__title {
+    position: absolute;
+    top: 73px;
+    left: 50%;
+    transform: translate(0, -50%);
+  }
+
+  &__container {
+    background-color: #eae5ef;
+  }
+
+  &__content-wrap {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 798px;
+  }
+
+  &__photo {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 652px;
+    height: 978px;
+    box-shadow: 6.4px 10.2px 156.5px 6.5px rgba(55, 55, 66, 0.18);
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    width: 45%;
+  }
+
+  &__list {
+    width: 90%;
+    margin-top: 75px;
+    padding-left: 30px;
+  }
+
+  &__item {
+    position: relative;
+    margin-bottom: 53px;
+    padding-left: 30px;
+    line-height: 36px;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 15px;
+      left: 0;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: #433534;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (max-width: 1366px) {
+    &__photo {
+      width: 561px;
+      height: 842px;
+    }
+  }
+
+  @media screen and (max-width: 1220px) {
+    margin: 0 0 156px;
+    padding-top: 120px;
+
+    &__content-wrap {
+      min-height: 480px;
+    }
+
+    &__photo {
+      width: 350px;
+      height: 524px;
+    }
+
+    &__content {
+      padding: 20px 0;
+    }
+
+    &__list {
+      margin-top: 22px;
+    }
+
+    &__item {
+      margin-bottom: 20px;
+      line-height: 20px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    &__title {
+      position: static;
+    }
+
+    &__container {
+      background-color: inherit;
+    }
+
+    &__photo {
+      position: static;
+      top: 0;
+      transform: translate(0, 0);
+      order: 2;
+    }
+
+    &__content-wrap {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: auto;
+    }
+
+    &__content {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    &__list {
+      width: 100%;
+      padding-left: 0;
+    }
+
+    &__item {
+      position: relative;
+      padding-left: 0;
+
+      &:before {
+        display: none;
+      }
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    &__photo {
+      width: 300px;
+      height: 439px;
+    }
+  }
+}

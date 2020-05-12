@@ -4,6 +4,7 @@
 @import "motivation";
 @import "advantages";
 @import "science";
+@import "mentor";
 
 * {
   box-sizing: border-box;
@@ -16,7 +17,7 @@ body {
   background: url("../images/header_bg.png") no-repeat 50% 0;
   background-size: contain;
 
-  @media screen and (max-width: 1220px) {
+  @media screen and (max-width: 1366px) {
     font-size: 15px;
   }
 }
@@ -57,7 +58,7 @@ body {
   font-weight: 700;
   color: $common_title-color;
 
-  @media screen and (max-width: 1220px) {
+  @media screen and (max-width: 1366px) {
     font-size: 33px;
   }
 
@@ -67,5 +68,16 @@ body {
 
   @media screen and (max-width: 450px) {
     font-size: 24px;
+  }
+}
+
+.sub-title {
+  font-family: $bwsurcodemo-bold, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #433534;
+
+  @media screen and (max-width: 1366px) {
+    font-size: 25px;
   }
 }

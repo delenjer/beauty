@@ -21,14 +21,17 @@
     line-height: 36px;
   }
 
-  @media screen and (max-width: 1220px) {
+  @media screen and (max-width: 1366px) {
     margin: 150px auto 0;
-    box-shadow: 6.4px 10.2px 240px 10px rgba(95, 86, 60, 0.2);
+    box-shadow: 6.4px 10.2px 122px 10px rgba(95, 86, 60, 0.2);
     padding: 110px 10px 80px;
     width: 85%;
 
     :before {
+      top: -50px;
       left: 300px;
+      width: 150px;
+      height: 110px;
       background-size: contain;
     }
   }
@@ -40,8 +43,6 @@
     :before {
       top: -20%;
       left: 0;
-      width: 150px;
-      height: 110px;
     }
   }
 
