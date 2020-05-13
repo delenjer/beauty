@@ -1,6 +1,6 @@
 .mentor {
   position: relative;
-  margin: 96px 0 156px;
+  margin: 96px 0 0;
   padding-top: 242px;
 
   &__title {
@@ -70,6 +70,8 @@
   }
 
   @media screen and (max-width: 1366px) {
+    margin: 50px 0;
+
     &__photo {
       width: 561px;
       height: 842px;

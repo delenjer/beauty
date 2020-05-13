@@ -62,9 +62,11 @@
   @media screen and (max-width: 1366px) {
     min-height: auto;
     background-size: contain;
+    margin-top: 50px;
 
     &__container {
-      padding: 93px 0 50px;
+      padding: 93px 0 70px;
+      box-shadow: 6.4px 10.2px 140px 10px rgba(101, 82, 82, 0.23);
 
       &:after {
         width: 210px;
@@ -80,7 +82,7 @@
     }
 
     &__list {
-      margin-top: 47px;
+      margin-top: 80px;
     }
 
     &__item {

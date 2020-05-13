@@ -5,9 +5,13 @@
 @import "advantages";
 @import "science";
 @import "mentor";
+@import "plan";
+@import "registration";
+@import "important";
 
 * {
   box-sizing: border-box;
+  outline: none;
 }
 
 body {
