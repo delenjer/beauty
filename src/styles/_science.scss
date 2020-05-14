@@ -2,13 +2,13 @@
   background: url("../images/petal_bg.png") no-repeat 50% 50%;
   background-size: cover;
   padding: 150px 0 100px;
-  margin-top: 114px;
+  margin-top: 22px;
 
   &__container {
     position: relative;
     background-color: $science-bg;
     box-shadow: 6.4px 10.2px 240px 10px rgba(101, 82, 82, 0.23);
-    padding: 182px 86px 86px;
+    padding: 182px 86px 125px;
 
     &:after {
       content: "";
@@ -33,9 +33,9 @@
   }
 
   &__list {
-    margin-top: 116px;
+    margin-top: 122px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     position: relative;
     z-index: 1;
@@ -65,7 +65,7 @@
     margin-top: 50px;
 
     &__container {
-      padding: 93px 0 70px;
+      padding: 93px 40px 70px;
       box-shadow: 6.4px 10.2px 140px 10px rgba(101, 82, 82, 0.23);
 
       &:after {

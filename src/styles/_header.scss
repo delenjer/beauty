@@ -2,7 +2,7 @@
   padding-top: 118px;
 
   &__logo {
-    margin-bottom: 35px;
+    margin-bottom: 22px;
   }
 
   &__text {
@@ -13,17 +13,19 @@
   }
 
   &__title {
-    font-family: $bwsurcodemo-bold, sans-serif;
+    font-family: $bwsurcodemo-medium, sans-serif;
     font-size: 99px;
     font-weight: 700;
     color: $header_title-color;
-    margin-top: 180px;
+    margin-top: 164px;
   }
 
   &__description {
-    margin-top: 73px;
+    margin-top: 50px;
     width: 300px;
     color: $main_text-color;
+    text-transform: uppercase;
+    line-height: 1.5;
   }
 
   @media screen and (max-width: 1366px) {

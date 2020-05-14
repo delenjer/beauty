@@ -18,3 +18,54 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/gothampro/GothamPro.eot");
+  src: local("../fonts/gothampro/Gotham Pro"),
+    local("GothamPro"),
+    url("../fonts/gothampro/GothamPro.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/gothampro/GothamPro.woff") format("woff"),
+    url("../fonts/gothampro/GothamPro.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon/icomoon.eot?u6pr2k");
+  src: url("../fonts/icomoon/icomoon.eot?u6pr2k#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon/icomoon.ttf?u6pr2k") format("truetype"),
+    url("../fonts/icomoon/icomoon.woff?u6pr2k") format("woff"),
+    url("../fonts/icomoon/icomoon.svg?u6pr2k#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "icomoon", sans-serif !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook-with-circle:before {
+  content: "\e900";
+}
+
+.icon-mail4:before {
+  content: "\ea86";
+}
+
+.icon-telegram:before {
+  content: "\ea95";
+}

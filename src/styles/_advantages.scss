@@ -1,5 +1,9 @@
 .advantages {
-  margin-top: 185px;
+  margin-top: 174px;
+
+  &__title {
+    line-height: 85px;
+  }
 
   &__img {
     width: 161px;
@@ -9,7 +13,7 @@
 
   &__list {
     @include space-around;
-    margin-top: 180px;
+    margin-top: 162px;
   }
 
   &__text {
@@ -21,6 +25,10 @@
   @media screen and (max-width: 1366px) {
     &__list {
       margin-top: 120px;
+    }
+
+    &__title {
+      line-height: 1.3;
     }
 
     &__text {

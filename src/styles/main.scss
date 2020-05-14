@@ -8,6 +8,7 @@
 @import "plan";
 @import "registration";
 @import "important";
+@import "footer";
 
 * {
   box-sizing: border-box;
@@ -20,6 +21,7 @@ body {
   font-weight: 300;
   background: url("../images/header_bg.png") no-repeat 50% 0;
   background-size: contain;
+  overflow-x: hidden;
 
   @media screen and (max-width: 1366px) {
     font-size: 15px;
@@ -27,7 +29,7 @@ body {
 }
 
 .content {
-  width: 1276px;
+  width: 1288px;
   margin: 0 auto;
   padding: 0 10px;
 
@@ -40,7 +42,7 @@ body {
 }
 
 .wrapper {
-  width: 1540px;
+  width: 1552px;
   margin: 0 auto;
   padding: 0 10px;
 

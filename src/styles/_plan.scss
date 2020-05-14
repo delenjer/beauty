@@ -1,5 +1,5 @@
 .plan {
-  margin-top: 350px;
+  margin-top: 264px;
   background: url("../images/petal_small_bg.png") no-repeat right bottom;
   background-size: contain;
 
@@ -8,7 +8,8 @@
   }
 
   &__description {
-    width: 30%;
+    width: 34%;
+    margin-top: 95px;
   }
 
   &__title {
@@ -17,7 +18,7 @@
 
   &__text {
     line-height: 36px;
-    margin-bottom: 50px;
+    margin-bottom: 34px;
   }
 
   &__list {
@@ -135,7 +136,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    margin-top: 170px;
+    margin-top: 50px;
 
     &__description {
       text-align: center;
